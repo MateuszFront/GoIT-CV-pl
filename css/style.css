@@ -227,3 +227,24 @@ body {
 .widget:hover {
   animation: heartBeat 1s;
 }
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+}
+[class^="icon"] {
+  font-size: 50px;
+  border-radius: 30%;
+  border: 1px solid #ff6b0896;
+  background-color: white;
+  color: #1e2939;
+  filter: drop-shadow(0.559px 0.829px 0px #ff6b0896); 
+}
+[class^="icon"]:hover {
+  background-color: #ff6b0896;
+  border-radius: 150%;
+  border: 2px solid #ff6b0896;
+  transition: 0.5s;
+}
